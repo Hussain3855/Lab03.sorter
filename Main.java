@@ -25,4 +25,9 @@ public class Main {
             }
             array[i+1] = key;
         }
-    } }
+    }
+    public void Sort(int array[]) {
+        insertionSort(array);
+    }
+
+}
